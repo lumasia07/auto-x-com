@@ -20,8 +20,12 @@ export default function Page() {
             </ul>
           </div>
         </div>
-        <div>
-          {/* Other content */}
+        <div className='flex justify-center p-4'>
+          <input
+            type='search'
+            placeholder='Type a car model...e.g. Toyota'
+            className='w-1/2 px-4 py-2 border rounded-full focus:outline-none focus:ring-1 focus:ring-gray-900'
+          />
         </div>
       </div>
     );
