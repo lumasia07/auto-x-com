@@ -1,4 +1,3 @@
-// root layout for App
 import { Raleway } from "next/font/google";
 import "./globals.css";
 
@@ -12,7 +11,13 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={raleway.className}>{children}</body>
+      <body className={raleway.className}>
+        <div className="parallax"></div>
+        <div className="overlay"></div>
+        <div id="app-content">
+          {children}
+        </div>
+      </body>
     </html>
   );
 }
