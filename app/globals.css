@@ -34,7 +34,6 @@ body {
 
 /* Homepage background */
 
-/* globals.css */
 body {
   font-family: 'Raleway', sans-serif; /* Ensure this matches the font you're using */
   margin: 0;
@@ -70,4 +69,12 @@ body {
   position: relative;
   z-index: 1;
   min-height: 100vh; /* Ensure the content covers the full viewport height */
+}
+
+h1, h3 {
+  margin: 0;
+}
+
+input::placeholder {
+  color: #999;
 }
