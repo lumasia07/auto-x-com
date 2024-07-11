@@ -6,6 +6,7 @@ import { useInView } from 'react-intersection-observer';
 import './globals.css';
 import Footer from './components/footer';
 import Perks from './components/perks';
+import Perkslist from './components/perkslist';
 
 const menuList = ['Sell a car', 'Buy a car'];
 
@@ -80,6 +81,9 @@ export default function Page() {
       </motion.div>
       <div className='flex justify-center m-8'>
         <Perks />
+      </div>
+      <div>
+        <Perkslist />
       </div>
       <div className='mt-auto'>
         <Footer />
