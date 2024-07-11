@@ -9,6 +9,8 @@ import Perks from './components/perks';
 import Perkslist from './components/perkslist';
 import Customercare from './components/customercare';
 import Customerdesc from './components/customercaredesc';
+import Carimports from './components/imports';
+import Carimportsdesc from './components/importsdesc';
 
 const menuList = ['Sell a car', 'Buy a car'];
 
@@ -87,6 +89,10 @@ export default function Page() {
       <div className='flex justify-center m-8'>
         <Customercare />
         <Customerdesc />
+      </div>
+      <div className='flex justify-center m-8'>
+        <Carimportsdesc />
+        <Carimports />
       </div>
       <div>
         <Perkslist />
