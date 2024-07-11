@@ -4,6 +4,8 @@ import { useEffect } from 'react';
 import { motion, useAnimation } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import './globals.css';
+import Footer from './components/footer';
+import Perks from './components/perks';
 
 const menuList = ['Sell a car', 'Buy a car'];
 
@@ -39,7 +41,7 @@ export default function Page() {
   };
 
   return (
-    <div className=''>
+    <div className='min-h-screen flex flex-col'>
       <div className='flex justify-between items-center p-4'>
         <div>
           <h1 className='font-bold text-3xl text-ellipsis text-white'>autoX.com</h1>
@@ -63,7 +65,7 @@ export default function Page() {
         />
       </div>
       <motion.div
-        className='m-9 w-1/3 border-r-8'
+        className='m-9 w-1/3 ml-auto border-l-8 p-8'
         ref={ref}
         initial='hidden'
         animate={controls}
@@ -76,8 +78,11 @@ export default function Page() {
           Buy or sell your car with autoX.com for fully immersive experience
         </motion.h3>
       </motion.div>
-      <div>
-        <h1 className='text-white'>Okay</h1>
+      <div className='flex justify-center m-8'>
+        <Perks />
+      </div>
+      <div className='mt-auto'>
+        <Footer />
       </div>
     </div>
   );

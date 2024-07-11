@@ -38,7 +38,7 @@ body {
   font-family: 'Raleway', sans-serif; /* Ensure this matches the font you're using */
   margin: 0;
   padding: 0;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 .parallax {
