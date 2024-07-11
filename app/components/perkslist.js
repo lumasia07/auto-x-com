@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCar } from '@fortawesome/free-solid-svg-icons';
-import { faHand } from '@fortawesome/free-solid-svg-icons';
+import { faPercentage } from '@fortawesome/free-solid-svg-icons';
 import { faToolbox } from '@fortawesome/free-solid-svg-icons';
 
 
@@ -17,14 +17,14 @@ export default function Perkslist() {
         </li>
         <li className="w-full max-w-xs">
           <div className="bg-gray-300 flex justify-center items-center h-48 rounded-lg shadow-lg p-4">
-            <FontAwesomeIcon icon={faHand} className="text-black text-2xl mr-2" />
-            <p className="text-black text-xl">Free service</p>
+            <FontAwesomeIcon icon={faPercentage} className="text-black text-2xl mr-2" />
+            <p className="text-black text-xl">6% Commision on referral </p>
           </div>
         </li>
         <li className="w-full max-w-xs">
           <div className="bg-gray-300 flex justify-center items-center h-48 rounded-lg shadow-lg p-4">
             <FontAwesomeIcon icon={faToolbox} className="text-black text-2xl mr-2" />
-            <p className="text-black text-xl">Free service</p>
+            <p className="text-black text-xl">Free Auto-service</p>
           </div>
         </li>
         

@@ -7,6 +7,7 @@ import './globals.css';
 import Footer from './components/footer';
 import Perks from './components/perks';
 import Perkslist from './components/perkslist';
+import Customercare from './components/customercare';
 
 const menuList = ['Sell a car', 'Buy a car'];
 
@@ -76,11 +77,14 @@ export default function Page() {
           Safest way to own your dream car
         </motion.h1>
         <motion.h3 className='text-white mt-10 p-3 text-2xl font-semibold' variants={itemVariants}>
-          Buy or sell your car with autoX.com for fully immersive experience
+          Buy or sell your car with autoX.com for a fully immersive experience
         </motion.h3>
       </motion.div>
       <div className='flex justify-center m-8'>
         <Perks />
+      </div>
+      <div>
+        <Customercare />
       </div>
       <div>
         <Perkslist />
