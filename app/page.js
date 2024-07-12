@@ -70,7 +70,7 @@ export default function Page() {
         <input
           type='search'
           placeholder='Type a car model...e.g. Toyota, press Enter to search'
-          className='w-1/2 px-4 py-2 border rounded-full focus:outline-none focus:ring-1 focus:ring-gray-900'
+          className='w-full max-w-lg px-4 py-2 border rounded-full focus:outline-none focus:ring-1 focus:ring-gray-900'
         />
       </div>
     <motion.div
