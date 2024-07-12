@@ -55,16 +55,18 @@ export default function Page() {
         <div>
           <h1 className='font-bold text-3xl text-ellipsis text-white'>autoX.com</h1>
         </div>
-        <div>
-          <ul className='flex space-x-0 divide-x divide-gray-500'>
-          <li className='bg-black text-white px-4 py-2 text-base md:text-lg hover:cursor-pointer'>
+
+        <div className='max-w-sm mx-auto'>
+    <ul className='flex space-x-0 divide-x divide-gray-500'>
+        <li className='bg-black text-white px-2 py-1 text-sm md:px-4 md:py-2 md:text-base hover:cursor-pointer'>
             {menuList[0]}
-          </li>
-          <li className='bg-white text-black px-4 py-2 text-base md:text-lg hover:cursor-pointer'>
+        </li>
+        <li className='bg-white text-black px-2 py-1 text-sm md:px-4 md:py-2 md:text-base hover:cursor-pointer'>
             {menuList[1]}
-          </li>
-          </ul>
-        </div>
+        </li>
+    </ul>
+</div>
+
 
       </div>
       <div className='flex justify-center p-4'>
