@@ -56,7 +56,7 @@ export default function Page() {
           <h1 className='font-bold text-3xl text-ellipsis text-white'>autoX.com</h1>
         </div>
 
-        <div className='max-w-sm mx-auto'>
+        <div className='max-w-sm'>
     <ul className='flex space-x-0 divide-x divide-gray-500'>
         <li className='bg-black text-white px-2 py-1 text-sm md:px-4 md:py-2 md:text-base hover:cursor-pointer'>
             {menuList[0]}
