@@ -13,6 +13,7 @@ import Carimports from './components/imports';
 import Carimportsdesc from './components/importsdesc';
 import Comission from './components/comission';
 import Comissionsdesc from './components/commisiondes';
+import Email from './components/email';
 
 const menuList = ['Sell a car', 'Buy a car'];
 
@@ -102,6 +103,9 @@ export default function Page() {
       </div>
       <div>
         <Perkslist />
+      </div>
+      <div className='flex justify-center m-10'>
+        <Email />
       </div>
       <div className='mt-auto'>
         <Footer />
