@@ -11,6 +11,8 @@ import Customercare from './components/customercare';
 import Customerdesc from './components/customercaredesc';
 import Carimports from './components/imports';
 import Carimportsdesc from './components/importsdesc';
+import Comission from './components/comission';
+import Comissionsdesc from './components/commisiondes';
 
 const menuList = ['Sell a car', 'Buy a car'];
 
@@ -93,6 +95,10 @@ export default function Page() {
       <div className='flex justify-center m-8'>
         <Carimportsdesc />
         <Carimports />
+      </div>
+      <div className='flex justify-center m-8'>
+        <Comission />
+        <Comissionsdesc />
       </div>
       <div>
         <Perkslist />
