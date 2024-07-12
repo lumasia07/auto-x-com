@@ -73,20 +73,21 @@ export default function Page() {
           className='w-1/2 px-4 py-2 border rounded-full focus:outline-none focus:ring-1 focus:ring-gray-900'
         />
       </div>
-      <motion.div
-        className='m-9 w-1/3 ml-auto border-l-8 p-8'
-        ref={ref}
-        initial='hidden'
-        animate={controls}
-        variants={containerVariants}
-      >
-        <motion.h1 className='text-white text-6xl font-bold' variants={itemVariants}>
-          Safest way to own your dream car
-        </motion.h1>
-        <motion.h3 className='text-white mt-10 p-3 text-2xl font-semibold' variants={itemVariants}>
-          Buy or sell your car with autoX.com for a fully immersive experience
-        </motion.h3>
-      </motion.div>
+    <motion.div
+      className='m-9 w-full max-w-2xl md:w-1/3 ml-auto border-l-8 p-6 md:p-8'
+      ref={ref}
+      initial='hidden'
+      animate={controls}
+      variants={containerVariants}
+    >
+    <motion.h1 className='text-white text-4xl md:text-6xl font-bold' variants={itemVariants}>
+        Safest way to own your dream car
+    </motion.h1>
+      <motion.h3 className='text-white mt-6 p-3 text-lg md:text-2xl font-semibold' variants={itemVariants}>
+        Buy or sell your car with autoX.com for a fully immersive experience
+      </motion.h3>
+    </motion.div>
+
       <div className='flex justify-center m-8'>
         <Perks />
       </div>
