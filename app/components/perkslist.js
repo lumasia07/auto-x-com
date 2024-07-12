@@ -15,13 +15,13 @@ export default function Perkslist() {
         <li className="w-full max-w-xs">
           <div className="bg-gray-300 flex justify-center items-center h-48 rounded-lg shadow-lg p-4">
             <FontAwesomeIcon icon={faCar} className="text-black text-2xl mr-2" />
-            <p className="text-black text-xl">Free Insurance </p>
+            <p className="text-black text-xl">Free Insurance for an year </p>
           </div>
         </li>
         <li className="w-full max-w-xs">
           <div className="bg-gray-300 flex justify-center items-center h-48 rounded-lg shadow-lg p-4">
             <FontAwesomeIcon icon={faPercentage} className="text-black text-2xl mr-2" />
-            <p className="text-black text-xl">6% Commision on referral </p>
+            <p className="text-black text-xl">30% off on 2nd purchase </p>
           </div>
         </li>
         <li className="w-full max-w-xs">
